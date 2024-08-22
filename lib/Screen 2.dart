@@ -197,6 +197,102 @@ class _Screen2State extends State<Screen2> {
                     ),
 
                   ),
+                  SizedBox(width: 5,),
+                  Container(
+                    width: 150,
+                    height: 250,
+                    decoration: ShapeDecoration(
+                      color: Color(0xFFF9FAFB),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      shadows: [
+                        BoxShadow(
+                          color: Color(0x28000000),
+                          blurRadius: 8,
+                          offset: Offset(0, 4),
+                          spreadRadius: 0,
+                        )
+                      ],
+                    ),
+                    child: Stack(
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.only(top: 15.0),
+                          child: Image.asset('assets/mac.png',height: 110,width: 147,),
+                        ),
+                        Padding(
+                          padding:  EdgeInsets.only(top: 140.0,left:10),
+                          child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text('Mac book pro 16-',style: TextStyle(fontSize: 15),),
+                              Text('inch(2021)',style: TextStyle(fontSize: 15),),
+                              SizedBox(height: 5,),
+                              Text('\$2499',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                              SizedBox(height: 10,),
+                              Row(
+                                children: [
+                                  Icon(Icons.star,color: Colors.red,size: 20,),
+                                  SizedBox(width: 5,),
+                                  Text('4.9',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                                ],
+                              ),
+
+                            ],
+                          ),
+                        ),
+
+                      ],
+                    ),
+
+                  ),
+                  Container(
+                    width: 150,
+                    height: 250,
+                    decoration: ShapeDecoration(
+                      color: Color(0xFFF9FAFB),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      shadows: [
+                        BoxShadow(
+                          color: Color(0x28000000),
+                          blurRadius: 8,
+                          offset: Offset(0, 4),
+                          spreadRadius: 0,
+                        )
+                      ],
+                    ),
+                    child: Stack(
+                      children: [
+                        Image.asset('assets/iphone.png'),
+                        Padding(
+                          padding:  EdgeInsets.only(top: 140.0,left:10),
+                          child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text('iphone 13 mini',style: TextStyle(fontSize: 15),),
+                              Text('(2021)',style: TextStyle(fontSize: 15),),
+                              SizedBox(height: 5,),
+                              Text('\$729',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                              SizedBox(height: 10,),
+                              Row(
+                                children: [
+                                  Icon(Icons.star,color: Colors.red,size: 20,),
+                                  SizedBox(width: 5,),
+                                  Text('4.9',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                                ],
+                              ),
+
+                            ],
+                          ),
+                        ),
+
+                      ],
+                    ),
+
+                  ),
+                  SizedBox(width: 5,),
+
 
                 ],
               ),
@@ -219,6 +315,202 @@ class _Screen2State extends State<Screen2> {
               ),
             ),
             SizedBox(height: 15,),
+            SizedBox(height: 250,
+              child: ListView(scrollDirection: Axis.horizontal,
+                children: [
+                  Container(
+                    width: 150,
+                    height: 250,
+                    decoration: ShapeDecoration(
+                      color: Color(0xFFF9FAFB),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      shadows: [
+                        BoxShadow(
+                          color: Color(0x28000000),
+                          blurRadius: 8,
+                          offset: Offset(0, 4),
+                          spreadRadius: 0,
+                        )
+                      ],
+                    ),
+                    child: Stack(
+                      children: [
+                        Image.asset('assets/ipad2.png'),
+                        Padding(
+                          padding:  EdgeInsets.only(top: 140.0,left: 10),
+                          child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text('ipad mini 8.3-',style: TextStyle(fontSize: 15),),
+                              Text('inch (2021)',style: TextStyle(fontSize: 15),),
+                              SizedBox(height: 5,),
+                              Text('\$499',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                              SizedBox(height: 10,),
+                              Row(
+                                children: [
+                                  Icon(Icons.star,color: Colors.red,size: 20,),
+                                  SizedBox(width: 5,),
+                                  Text('4.9',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                                ],
+                              ),
+
+                            ],
+                          ),
+                        ),
+
+                      ],
+                    ),
+
+                  ),
+                  SizedBox(width: 5,),
+                  Container(
+                    width: 150,
+                    height: 250,
+                    decoration: ShapeDecoration(
+                      color: Color(0xFFF9FAFB),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      shadows: [
+                        BoxShadow(
+                          color: Color(0x28000000),
+                          blurRadius: 8,
+                          offset: Offset(0, 4),
+                          spreadRadius: 0,
+                        )
+                      ],
+                    ),
+                    child: Stack(
+                      children: [
+                        Image.asset('assets/watch2.png'),
+                        Padding(
+                          padding:  EdgeInsets.only(top: 140.0,left:10),
+                          child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text('Apple Watch SE',style: TextStyle(fontSize: 15),),
+                              Text('ries 3',style: TextStyle(fontSize: 15),),
+                              SizedBox(height: 5,),
+                              Text('\$199',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                              SizedBox(height: 10,),
+                              Row(
+                                children: [
+                                  Icon(Icons.star,color: Colors.red,size: 20,),
+                                  SizedBox(width: 5,),
+                                  Text('4.9',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                                ],
+                              ),
+
+                            ],
+                          ),
+                        ),
+
+                      ],
+                    ),
+
+                  ),
+                  SizedBox(width: 5,),
+                  Container(
+                    width: 150,
+                    height: 250,
+                    decoration: ShapeDecoration(
+                      color: Color(0xFFF9FAFB),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      shadows: [
+                        BoxShadow(
+                          color: Color(0x28000000),
+                          blurRadius: 8,
+                          offset: Offset(0, 4),
+                          spreadRadius: 0,
+                        )
+                      ],
+                    ),
+                    child: Stack(
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.only(top: 15.0),
+                          child: Image.asset('assets/imac.png',height: 110,width: 147,),
+                        ),
+                        Padding(
+                          padding:  EdgeInsets.only(top: 140.0,left:10),
+                          child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text('Apple imac',style: TextStyle(fontSize: 15),),
+                              Text('27"',style: TextStyle(fontSize: 15),),
+                              SizedBox(height: 5,),
+                              Text('\$1500',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                              SizedBox(height: 10,),
+                              Row(
+                                children: [
+                                  Icon(Icons.star,color: Colors.red,size: 20,),
+                                  SizedBox(width: 5,),
+                                  Text('4.9',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                                ],
+                              ),
+
+                            ],
+                          ),
+                        ),
+
+                      ],
+                    ),
+
+                  ),
+                  Container(
+                    width: 150,
+                    height: 250,
+                    decoration: ShapeDecoration(
+                      color: Color(0xFFF9FAFB),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      shadows: [
+                        BoxShadow(
+                          color: Color(0x28000000),
+                          blurRadius: 8,
+                          offset: Offset(0, 4),
+                          spreadRadius: 0,
+                        )
+                      ],
+                    ),
+                    child: Stack(
+                      children: [
+                        Image.asset('assets/book.png'),
+                        Padding(
+                          padding:  EdgeInsets.only(top: 140.0,left:10),
+                          child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text('mac mini',style: TextStyle(fontSize: 15),),
+                              Text('(2021)',style: TextStyle(fontSize: 15),),
+                              SizedBox(height: 5,),
+                              Text('\$699',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                              SizedBox(height: 10,),
+                              Row(
+                                children: [
+                                  Icon(Icons.star,color: Colors.red,size: 20,),
+                                  SizedBox(width: 5,),
+                                  Text('4.9',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500),),
+                                ],
+                              ),
+
+                            ],
+                          ),
+                        ),
+
+                      ],
+                    ),
+
+                  ),
+                  SizedBox(width: 5,),
+
+
+                ],
+              ),
+            ),
+            SizedBox(height: 30,)
+
 
           ],
         ),
