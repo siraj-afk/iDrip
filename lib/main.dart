@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'Screen1.dart';
 
@@ -12,6 +13,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    return
+      ScreenUtilInit(
+        designSize: const Size(360, 690),
+    minTextAdapt: true,
+    splitScreenMode: true,
+    // Use builder only if you need to use library outside ScreenUtilInit context
+    builder: (_ , child) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -34,7 +42,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: Screen1()
-    );
+    );});
   }
 }
 
